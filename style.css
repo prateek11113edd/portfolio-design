@@ -220,7 +220,7 @@ strong {
 }
 
 .logo {
-    height: 6.8rem;
+    height: 9.6rem;
 }
 
 .main-nav-list {
@@ -598,6 +598,8 @@ strong {
     display: block;
     width: 100%;
     transition: all 0.3s;
+    height: 100%;
+    object-fit: cover;
   }
   
   .gallery-item img:hover {
@@ -749,6 +751,12 @@ strong {
     background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.3), rgba(230, 125, 34, 0.3)), url('../img/eating.jpg');
     background-size: cover;
     background-position: center;
+  }
+  .cta-image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 11px;
   }
   
   .cta-form {
